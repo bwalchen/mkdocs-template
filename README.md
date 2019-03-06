@@ -11,7 +11,7 @@
 
 **Hosting**
 
-Your docs can be hosted on readdocs,
+Your docs can be hosted on , or any web server. All files are static, this means can not only host on a regular web server but as well as free solutions such as [ReadTheDocs](https://readthedocs.org/) and [github-pages](https://pages.github.com/).
 
 **Option 1: Basic**
 If you simply want to build a basic MkDocs static webpage follow the instructions here: [Setup mkdocs](https://mkdocs.readthedocs.io/en/stable/#mkdocs).
