@@ -113,7 +113,7 @@ nav:
     - Metadata: extensions/metadata.md
     - Permalinks: extensions/permalinks.md
     - PyMdown: extensions/pymdown.md
-  - Specimen: specimen.md
+  - Specimen: specimen.mdxs
   - Customization: customization.md
   - Compliance with GDPR: compliance.md
   - Release notes: release-notes.md
@@ -121,7 +121,15 @@ nav:
   - Contributing: contributing.md
   - License: license.md
 
+
+
+
+
+
+
+
+
 # Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
+# google_analytics:
+#   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#   - auto
