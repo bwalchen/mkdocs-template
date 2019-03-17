@@ -1,7 +1,7 @@
 
 # MkDocs template
 
-This repo contains the starter code and instructions to ***easily*** generate a static website built with `MkDocs` and overalayed with `Material Theme`. It is both mobile and desktop friendly as shown below.
+This repo contains the starter code and instructions to ***easily*** generate a static website built with `MkDocs`, with the additionaly potential to overalay it with themes. Some of them.
 
 [![Material for MkDocs](docs/assets/images/material.png)][2]
 
@@ -39,9 +39,6 @@ Instructions for that can be found in the next section.
 
 <br>
 <br>
-<br>
-<br>
-<br> 
 
 ## Setup your own MkDocs
 
@@ -49,23 +46,34 @@ Instructions for that can be found in the next section.
 
 All files are static, this means not only can you have your website hosted on a regular web server but as well as free solutions such as [ReadTheDocs](https://readthedocs.org/) and [github-pages](https://pages.github.com/).
 
-**Option 1: Basic** \
-If you simply want to build a basic MkDocs static webpage follow the instructions here: [Setup mkdocs](https://mkdocs.readthedocs.io/en/stable/#mkdocs).
+Follow the instructions in the following link in order to get started on learning howto build `mkdocs` project folders: 
+
+https://mkdocs.readthedocs.io/en/stable/#mkdocs
 
 <br> 
 
-**Option 2: Material Design Theme** \
-All material theme code was provided from the following repo: **[material theme link](https://github.com/squidfunk/mkdocs-material)**.
+## Themes
+> There are several good themes that are out there. If you got to their documentation they tell you how to install and customize them.
 
-If you want to build an MkDocs that's like this one follow the instructions below.
-* `git clone https://github.com/squidfunk/mkdocs-material.git`
-* go to `mkdocs.yml` 
-  * comment out `repo_name` and `repo_url`
-  * change the site name
-* Follow [MkDocs documentation](https://mkdocs.readthedocs.io/en/stable/) on how to add pages, serve, and deploy.
-* Please don't remove any of the copyrights, a lot of hard work was put in by the theme developer.
+
+Here are my favorite themes that I've found so far:
+* **squidfunk/mkdocs-material** - [link](https://squidfunk.github.io/mkdocs-material/)
+  * Most robust theme I've seen so far. Makes it easy to change colors, and is both mobile and computer friendly.
+* **Cinder Theme** - [link](https://sourcefoundry.org/cinder/)
+* **lramage/mkdocs-gitbook-theme** - [link](https://gitlab.com/lramage/mkdocs-gitbook-theme)
+  * this one has less documentation. I reccomend downloading the repo, `cd` into to it, run `pip install .`, the gitbook theme is now installed, you can delete the repo locally. The next time you build a new `mkdocs` directory change the `theme` value to `gitbook`.
+* **bootswatch-simplex** - [link](https://mkdocs.github.io/mkdocs-bootswatch/#simplex)
+
+
+> Please don't remove any of the copyrights, a lot of hard work was put in by the theme developers.
 
 <br>
+
+## Edit Themes
+If you ever run into a scenario where you want to tweak a theme I recommend reading the "custom themes" portion of the mkdocs documentation.
+
+Once you've done that clone a theme you like, and make your new mkdocs project use it as a custom theme. You never want to modify the `src` theme.
+
 <br>
 <br>
 
@@ -76,8 +84,6 @@ If deploying to *Github Pages* I'd reccomend cloning the repo, switching to the 
 Using `mkdocs serve` gives you a perfect sense of what your documentation will look like. But fair warning when you do `mkdocs build` don't try testing it by just clicking the html files, the paths for all of the links only work when it's being loaded by a web server.
 
 <br>
-<br>
-
 
 ## License
 
