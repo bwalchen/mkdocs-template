@@ -14,11 +14,11 @@ Generating new pages or content with `MkDocs` is extremely easy.
 Simply write up a document in markdown, copy it over to the `docs` directory:
 
 ```
-project-folder
-|
-|-> docs
-     |
-     |-> <Place md file here>
+project folder
+│
+├── docs
+│   ├── <page1>.md
+│   └── <page2>.md
 ```
 
 <br>
@@ -26,7 +26,7 @@ project-folder
 
 And then add the file and the page name you would like to give it in your `project-folder/mkdocs.yml` tree as shown below:
 ```md
-# Page tree
+
 nav:
   - Page name: markdownFileName.md
   - Grouping of Pages:
